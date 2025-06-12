@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  practitioner: one
+  use: MyString
+  type: 
+  line: MyString
+  city: MyString
+  district: MyString
+  state: MyString
+  postal_code: MyString
+  country: MyString
+
+two:
+  practitioner: two
+  use: MyString
+  type: 
+  line: MyString
+  city: MyString
+  district: MyString
+  state: MyString
+  postal_code: MyString
+  country: MyString

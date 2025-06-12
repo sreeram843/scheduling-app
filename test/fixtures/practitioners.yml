@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  active: false
+  gender: MyString
+  birth_date: 2025-06-12
+  pronouns: MyString
+  status_reason: MyString
+  employment_type: MyString
+  department: MyString
+  nationality: MyString
+  extensions: 
+
+two:
+  active: false
+  gender: MyString
+  birth_date: 2025-06-12
+  pronouns: MyString
+  status_reason: MyString
+  employment_type: MyString
+  department: MyString
+  nationality: MyString
+  extensions: 

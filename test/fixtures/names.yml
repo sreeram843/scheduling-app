@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  practitioner: one
+  use: MyString
+  prefix: MyString
+  given: MyString
+  family: MyString
+  suffix: MyString
+
+two:
+  practitioner: two
+  use: MyString
+  prefix: MyString
+  given: MyString
+  family: MyString
+  suffix: MyString

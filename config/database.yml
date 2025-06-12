@@ -1,0 +1,26 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS", 5) %>
+
+development:
+  <<: *default
+  database: scheduling_app_development
+  username: postgres
+  password:
+  host: localhost
+
+test:
+  <<: *default
+  database: scheduling_app_test
+  username: postgres
+  password:
+  host: localhost
+
+production:
+  <<: *default
+  url: <%= ENV['DATABASE_URL'] %>
+  # Optionally, uncomment below if you want separate explicit values instead of DATABASE_URL
+  # database: scheduling_app_production
+  # username: <%= ENV["SCHEDULING_APP_DATABASE_USERNAME"] %>
+  # password: <%= ENV["SCHEDULING_APP_DATABASE_PASSWORD"] %>

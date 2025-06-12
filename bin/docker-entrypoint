@@ -1,0 +1,12 @@
+#!/bin/bash
+set -e
+
+# Remove pre-existing server.pid if present
+rm -f /rails/tmp/pids/server.pid
+
+# Run database migrations
+echo "== Running database migrations =="
+bundle exec rails db:migrate
+
+# Exec the CMD
+exec "$@"
